@@ -22,7 +22,6 @@ app.get('/students/:studentId', (req, res) => {
 
 // GET /grades/:studentId - returns all grades for a given student by student id
 app.get('/grades/:studentId', (req, res) => {
-
     res.send(students.find((student) => {
         if (+req.params.studentId === student.studentId) {
             return student.grades

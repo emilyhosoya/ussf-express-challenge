@@ -1,20 +1,30 @@
 # GET http://localhost:3000/students/3
 
-GET http://localhost:3000/grades/1
+# GET http://localhost:3000/grades/1
 
-# POST http://localhost:3000/
-# Content-Type: application/json
+PUT http://localhost:3000/grades
+Content-Type: application/json
 
-# {
-#     "id": 4,
-#     "name": [
-#         "Emily",
-#         "Hosoya"
-#     ],
-#     "grades": {
-#         "English": "B",
-#         "French": "B"
-#     },
-#     "username": "ehosoya",
-#     "email": "ehosoya@gschool.com"
-# }
+{
+    "id": 4,
+    "grades": {
+        "P.E.": "A",
+    }
+}
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": [
+        "Emily",
+        "Hosoya"
+    ],
+    "grades": {
+        "English": "B",
+        "French": "B"
+    },
+    "username": "ehosoya",
+    "email": "ehosoya@gschool.com"
+}

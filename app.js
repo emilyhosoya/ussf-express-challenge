@@ -31,15 +31,26 @@ app.get('/grades/:studentId', (req, res) => {
 })
 
 // POST /grades - records a new grade, returns success status in JSON response (meaning you do not need to actually store the grade in a database. You do need to validate that the user supplied at least a grade, and a studentId)
-app.post('/grades', (req, res) => {
-    res.send(req.body)
-    console.log(`Student ${req.body.studentId} earned a ${req.body.grades[req.body.grades.length - 1]}!`)
+app.put('/grades', (req, res) => {
+    students.find((student) => {
+        if (+req.body.studentId === student.studentId) {
+            res.send(req.body.grades)
+            console.log(`Student ${req.body.studentId} earned a ${req.body.grades[req.body.grades.length - 1]}!`)
+        } else {
+            console.log('Please specify a user ID to add grade')
+        }
+    })
+    
 })
 
 // POST /register - creates a new user, returns success status in JSON response (meaning you do not need to actually store the user info in a database. You do need to validate that the user supplied username and email)
 app.post('/register', (req, res) => {
-    res.send(req.body)
-    console.log(`New user added! Username: ${req.body.username} Email: ${req.body.email}`)
+    if (req.body.username && req.body.email) {
+        res.send(req.body)
+        console.log(`New user added! Username: ${req.body.username} Email: ${req.body.email}`)
+    } else {
+        console.log('Please provide a username and email')
+    }
 })
 
 const port = 3000

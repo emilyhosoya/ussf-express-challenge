@@ -31,15 +31,13 @@ app.get('/grades/:studentId', (req, res) => {
 })
 
 // POST /grades - records a new grade, returns success status in JSON response (meaning you do not need to actually store the grade in a database. You do need to validate that the user supplied at least a grade, and a studentId)
-app.put('/grades', (req, res) => {
-    students.find((student) => {
-        if (+req.body.studentId === student.studentId) {
-            res.send(req.body.grades)
-            console.log(`Student ${req.body.studentId} earned a ${req.body.grades[req.body.grades.length - 1]}!`)
-        } else {
-            console.log('Please specify a user ID to add grade')
-        }
-    })
+app.post('/grades', (req, res) => {
+    if (req.body.studentId) {
+        res.send(req.body.grades)
+        console.log(`Student ${req.body.studentId} earned a ${req.body.grades[req.body.grades.length - 1]}!`)
+    } else {
+        console.log('Please specify a user ID to add grade')
+    }
     
 })
 

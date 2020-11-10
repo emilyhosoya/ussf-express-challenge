@@ -2,11 +2,11 @@
 
 # GET http://localhost:3000/grades/1
 
-PUT http://localhost:3000/grades
+POST http://localhost:3000/grades
 Content-Type: application/json
 
 {
-    "id": 4,
+    "studentId": 2,
     "grades": {
         "P.E.": "A",
     }
@@ -16,7 +16,7 @@ POST http://localhost:3000/register
 Content-Type: application/json
 
 {
-    "id": 4,
+    "studentId": 4,
     "name": [
         "Emily",
         "Hosoya"

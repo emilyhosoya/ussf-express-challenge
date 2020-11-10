@@ -1,0 +1,20 @@
+GET http://localhost:3000/students?search=
+
+
+
+# POST http://localhost:3000/
+# Content-Type: application/json
+
+# {
+#     "id": 51,
+#     "name": [
+#         "Emily",
+#         "Hosoya"
+#     ],
+#     "profilePic": "N/a",
+#     "lastCalled": "yesterday",
+#     "timesCalled": 5,
+#     "notes": [
+#         null
+#     ]
+# }

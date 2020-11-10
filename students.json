@@ -1,0 +1,122 @@
+[
+    {
+        "studentId": 1,
+        "name": [
+            "Katlyn",
+            "Quigley"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 2,
+        "name": [
+            "Zelma",
+            "Mills"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 3,
+        "name": [
+            "Elias",
+            "Feil"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 4,
+        "name": [
+            "Shana",
+            "Mayer"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 5,
+        "name": [
+            "Ebba",
+            "O'Reilly"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 6,
+        "name": [
+            "Modesta",
+            "Jakubowski"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 7,
+        "name": [
+            "Krystel",
+            "Ledner"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 8,
+        "name": [
+            "Wilfredo",
+            "Schmitt"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 9,
+        "name": [
+            "Jovanny",
+            "Auer"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    },
+    {
+        "studentId": 10,
+        "name": [
+            "Darby",
+            "Heathcote"
+        ],
+        "grades": [
+            null
+        ],
+        "username": null,
+        "email": null
+    }
+]

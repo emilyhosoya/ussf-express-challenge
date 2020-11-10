@@ -5,11 +5,12 @@
             "Katlyn",
             "Quigley"
         ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
+        "grades": {
+            "English": "A",
+            "Biology": "B"
+        },
+        "username": "kquigley",
+        "email": "kquigley@gschool.com"
     },
     {
         "studentId": 2,
@@ -17,11 +18,12 @@
             "Zelma",
             "Mills"
         ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
+        "grades": {            {
+            "Calculus": "C",
+            "Physics": "B"
+        },
+        "username": "zmills",
+        "email": "zmills@gschool.com"
     },
     {
         "studentId": 3,
@@ -29,94 +31,11 @@
             "Elias",
             "Feil"
         ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
-    },
-    {
-        "studentId": 4,
-        "name": [
-            "Shana",
-            "Mayer"
-        ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
-    },
-    {
-        "studentId": 5,
-        "name": [
-            "Ebba",
-            "O'Reilly"
-        ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
-    },
-    {
-        "studentId": 6,
-        "name": [
-            "Modesta",
-            "Jakubowski"
-        ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
-    },
-    {
-        "studentId": 7,
-        "name": [
-            "Krystel",
-            "Ledner"
-        ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
-    },
-    {
-        "studentId": 8,
-        "name": [
-            "Wilfredo",
-            "Schmitt"
-        ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
-    },
-    {
-        "studentId": 9,
-        "name": [
-            "Jovanny",
-            "Auer"
-        ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
-    },
-    {
-        "studentId": 10,
-        "name": [
-            "Darby",
-            "Heathcote"
-        ],
-        "grades": [
-            null
-        ],
-        "username": null,
-        "email": null
+        "grades": {            {
+            "French": "B",
+            "History": "C"
+        },
+        "username": "efeil",
+        "email": "efeil@gschool.com"
     }
 ]

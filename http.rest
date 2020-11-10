@@ -1,20 +1,20 @@
-GET http://localhost:3000/students?search=
+# GET http://localhost:3000/students/3
 
-
+GET http://localhost:3000/grades/1
 
 # POST http://localhost:3000/
 # Content-Type: application/json
 
 # {
-#     "id": 51,
+#     "id": 4,
 #     "name": [
 #         "Emily",
 #         "Hosoya"
 #     ],
-#     "profilePic": "N/a",
-#     "lastCalled": "yesterday",
-#     "timesCalled": 5,
-#     "notes": [
-#         null
-#     ]
+#     "grades": {
+#         "English": "B",
+#         "French": "B"
+#     },
+#     "username": "ehosoya",
+#     "email": "ehosoya@gschool.com"
 # }

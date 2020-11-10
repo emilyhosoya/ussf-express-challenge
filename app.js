@@ -15,20 +15,21 @@ app.get('/students', (req, res) => {
 
 // GET /students/:studentId - returns details of a specific student by student id
 app.get('/students/:studentId', (req, res) => {
-    res.json(students.find((body) => {
-        return +req.params.studentId === body.studentId
+    res.send(students.find((student) => {
+        return +req.params.studentId === student.studentId
     }))
 })
 
 // GET /grades/:studentId - returns all grades for a given student by student id
 app.get('/grades/:studentId', (req, res) => {
-    // res.send(students[req.params.studentId].grades)
-    // res.json(students.find((body) => {
-    //     if (+req.params.studentId === body.studentId) {
-    //         let student = 
-    //     }
+
+    res.send(students.find((student) => {
+        if (+req.params.studentId === student.studentId) {
+            return student.grades
+        }
         
-    // }))
+    }))
+    
 })
 
 // POST /grades - records a new grade, returns success status in JSON response (meaning you do not need to actually store the grade in a database. You do need to validate that the user supplied at least a grade, and a studentId)
